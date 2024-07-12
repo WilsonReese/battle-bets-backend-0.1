@@ -6,8 +6,8 @@ ruby "3.2.1"
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.1.3", ">= 7.1.3.2"
 
-# The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
-gem "sprockets-rails"
+# # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
+# gem "sprockets-rails"
 
 # Use postgresql as the database for Active Record
 gem "pg", "~> 1.1"
@@ -16,13 +16,13 @@ gem "pg", "~> 1.1"
 gem "puma"
 
 # Use JavaScript with ESM import maps [https://github.com/rails/importmap-rails]
-gem "importmap-rails"
+# gem "importmap-rails"
 
 # Hotwire's SPA-like page accelerator [https://turbo.hotwired.dev]
-gem "turbo-rails"
+# gem "turbo-rails"
 
 # Hotwire's modest JavaScript framework [https://stimulus.hotwired.dev]
-gem "stimulus-rails"
+# gem "stimulus-rails"
 
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
@@ -78,7 +78,7 @@ gem "awesome_print"
 gem "devise"
 gem "dotenv-rails"
 gem "faker"
-gem "htmlbeautifier"
+# gem "htmlbeautifier"
 gem "http"
 gem "sqlite3", "~> 1.4"
 gem "table_print"
@@ -88,7 +88,6 @@ group :development do
   gem "better_errors"
   gem "binding_of_caller"
   gem "draft_generators"
-  gem "grade_runner"
   gem "pry-rails"
   gem "rails_db"
   gem "rails-erd"
